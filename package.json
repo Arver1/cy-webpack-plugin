@@ -1,0 +1,20 @@
+{
+  "name": "cy-webpack-plugin",
+  "version": "0.0.1",
+  "description": "A simple plugin which to run cypress after build and stop the test on failure",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Arver1/cy-webpack-plugin.git"
+  },
+  "keywords": [],
+  "author": "Arver1 <aactepanov@mail.ru> (http://github.com/Arver1)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Arver1/cy-webpack-plugin/issues"
+  },
+  "homepage": "https://github.com/Arver1/cy-webpack-plugin#readme"
+}

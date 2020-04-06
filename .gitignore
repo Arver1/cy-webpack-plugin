@@ -1,0 +1,15 @@
+.idea/
+node_modules/
+.build/
+coverage/
+npm-debug.log
+yarn-error.log
+test-results.xml
+/.eslintrc
+.awcache
+.cache-loader
+package-lock.json
+.DS_Store
+e2e/video
+e2e/screenshots
+e2e/screenshotsFolder
