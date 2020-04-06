@@ -1,8 +1,11 @@
 # cy-webpack-plugin
 A simple plugin which to run cypress after build and stop the test on failure
+![npm](https://img.shields.io/npm/v/cy-webpack-plugin)
+![npm](https://img.shields.io/npm/dm/cy-webpack-plugin)
 
 ## Installation
 <pre>yarn add -D cy-webpack-plugin</pre>
+![img](img/cy.jpg)
 
 ## Usage
 
@@ -14,6 +17,14 @@ module.exports = {
     new CyWebpackPlugin()
   ]
 }
+
+// You don't need to forgot about 
+
+ afterEach(function () {
+         if (this.currentTest.state === 'failed') {
+             throw Error();
+         }
+     });
 ```
 ## Options
 
